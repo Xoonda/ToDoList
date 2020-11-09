@@ -1,0 +1,61 @@
+*{  font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgba(35, 111, 135, 0.22);
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.header {
+    text-align: center;
+}
+.header h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.todoText {
+    padding-left: 10px;
+    min-width: 400px;
+    min-height: 30px;
+    margin-right: 50px;
+
+}
+.button {
+    min-width: 30px;
+    min-height: 35px;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+}
+.button:active {
+    background-color: red;
+}
+.content {
+    display: flex;
+    margin-top: 50px;
+}
+.content ul {
+    display: block;
+    margin: 0 auto;
+    list-style-type: none;
+    min-width: 80%;
+    background: rgba(240, 128, 128, .4)
+}
+.content ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 25px;
+    background: rgba(240, 128, 128, .7)
+}
+.cross:hover {
+    cursor: pointer;
+}
+.cross:active {
+    background: white;
+}
